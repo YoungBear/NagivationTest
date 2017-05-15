@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@mipmap/ic_message"
+        android:title="@string/title_message"/>
+
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:icon="@mipmap/ic_folder"
+        android:title="@string/title_work"/>
+
+    <item
+        android:id="@+id/navigation_notifications"
+        android:icon="@mipmap/ic_contacts"
+        android:title="@string/title_address_list"/>
+
+    <item
+        android:id="@+id/navigation_settings"
+        android:icon="@mipmap/ic_settings"
+        android:title="@string/title_settings"/>
+
+</menu>

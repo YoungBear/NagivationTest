@@ -14,7 +14,7 @@ import com.example.navigationtest.R;
  * Created by ysx on 2017/5/15.
  */
 
-public class Fragment3 extends Fragment {
+public class Fragment4 extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {

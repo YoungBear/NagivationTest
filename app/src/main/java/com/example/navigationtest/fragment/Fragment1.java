@@ -21,6 +21,9 @@ public class Fragment1 extends Fragment {
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = LayoutInflater.from(getActivity()).inflate(R.layout.fragment, null);
 
+        TextView tv_title = (TextView) view.findViewById(R.id.tv_title);
+        tv_title.setText(this.getClass().getSimpleName());
+
         TextView txt = (TextView) view.findViewById(R.id.txt);
         txt.setText(this.getClass().getSimpleName());
 
